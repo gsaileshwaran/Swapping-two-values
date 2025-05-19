@@ -18,7 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+x = eval(input())
+y = eval(input())
+temp = x
+x = y
+y = temp
+print("Swapped values are:",x,y)
+```
 
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/087a36c0-5788-4c88-ae5d-9f9845eb57c5)
 
 
 ## RESULT:
